@@ -13,7 +13,7 @@ int main()
 	{
 		if (i%5==0) printf("\n");
 
-		printf("%12d",f[i]);
+		printf("%12d", &f[i]);
 	}
 	printf("\n");
 
